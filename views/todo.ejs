@@ -1,0 +1,22 @@
+<html>
+<head>
+    <title>ToDo List</title>
+    <link href="/assets/styles.css" rel="stylesheet" type="text/css" />
+    <script type="text/JavaScript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/assets/todo-list.js"></script>
+</head>
+<body>
+<h1>My ToDo List</h1>
+    <div id = "todo-table"> 
+        <form>
+            <input type="text" name="item" placeholder="Add new item..." required />
+            <button type="submit"> Add Item </button>
+        </form>
+        <ul>
+            <% for(var i=0; i <list.length; i++){ %>
+            <li><%= list[i].item %></li>
+            <% } %>
+        </ul>
+    </div>
+</body>
+</html>
