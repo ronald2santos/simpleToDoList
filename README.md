@@ -20,6 +20,10 @@ Navigate to the page at localhost:5000/
 
 With this web app you can add to-do items that will be stored in a mongoDB database in mLab, and can be removed by simply clicking on them (They will me removed from the database also)
 
+## Live Demo
+
+[Heroku LiveDemo](https://to-do-list-nodejs-mongodb.herokuapp.com/)
+
 ## License
 - MIT
 
